@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Example </title>
+	<meta http-equiv="Content-Type" content="charset=utf-8" />
+	
+	<link rel="stylesheet" type="text/css" href="ui.css">
+	<script type='text/javascript' src='ui.js'></script>
+</head>
+<body>
+	<div id='ui' style='position: relative; width:1280px; height: 720px;'></div>
+</body>
+<script>
+	
+	
+	NUI();
+	NUI({wnd: document.getElementById('ui'), w: 1280/1280*10, h: 720/720*10});
+	NUI('Form:x1').Var({x: 0, y: 0, w: 128, h: 72});
+	NUI('Form:x1/Form:x123').Var({x: 42, y: 1, w: 30, h: 38, hs: 73, ws: 65});
+	NUI('Form:x1/Form:x123/Button:x1').Var({x: 1, y: 1, w: 27, h: 2, v: 'button'});
+	NUI('Form:x1/Form:x123/Text:x2').Var({x: 1, y: 5, w: 27, h: 2, l: 3, v: 'Text\nText\nText\nText\nText\n'});
+	NUI('Form:x1/Form:x123/Button:x2').Var({x: 1, y: 14, w: 27, h: 2, v: 'button'});
+	NUI('Form:x1/Button:x10').Var({x: 1, y: 1, w: 20, h: 2, v: 'button'});
+	NUI('Form:x1/Radio:x1').Var({x: 1, y: 5, w: 20, h: 2, v: 'radio'});
+	NUI('Form:x1/Radio:x2').Var({x: 1, y: 9, w: 20, h: 2, v: 'radio'});
+	NUI('Form:x1/Check:x1').Var({x: 1, y: 13, w: 20, h: 2, v: 'check'});
+	NUI('Form:x1/Check:x2').Var({x: 1, y: 17, w: 20, h: 2, v: 'check'});
+	NUI('Form:x1/Line:x1').Var({x: 1, y: 21, w: 40, h: 3, c: 'Line', v: 'abc ABC 123'});
+	NUI('Form:x1/Area:x2').Var({x: 1, y: 29, w: 40, h: 3, l: 6, c: 'Area', v: 'abc ABC 123'});
+	NUI('Form:x1/Form:x2').Var({x: 1, y: 40, w: 40, h: 31});
+	NUI('Form:x1/Form:x222222').Var({x: 42, y: 40, w: 30, h: 31, hs: 100, ws: 100});
+	NUI('Form:x1/Size:x2').Var({x: 41, y: 40, w: 1, h: 31, a: 'x'}); 
+	NUI('Form:x1/Size:x3').Var({x: 72, y: 1, w: 1, h: 70, a: 'x'});
+	NUI('Form:x1/Text:x1').Var({x: 73, y: 1, w: 54, h: 2, l: 34, v: 'Text\n1\n2\n3\n4\n5\n6\n7\n8\n9\n0'});
+	NUI('Form:x1/Text:x3').Var({x: 22, y: 1, w: 19, h: 1, l: 18, v: 'Text\nText\nText\nText\nText'});
+	NUI('Form:x1/Form:x2/Text:x4').Var({x: 1, y: 3, w: 38, h: 4, l: 5, v: 'Text\nText\nText\nText\nText'});
+	
+	/* 
+	NUI('Form:x1/Button:x10')
+	.Act('::click', 'up:click(v: 123)');
+	*/
+	
+</script>
+</html>
+
+

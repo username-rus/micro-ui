@@ -1,0 +1,307 @@
+/*
+.NUI-Widget article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*/
+
+.NUI-Widget
+{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	quotes: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1;
+	/*font-family: monospace;*/
+}
+
+.NUI-Widget * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1;
+	/*
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	*/
+}
+
+.NUI-Widget blockquote, .NUI-Widget q {
+	quotes: none;
+}
+
+.NUI-Widget blockquote:before, .NUI-Widget blockquote:after,
+.NUI-Widget q:before, .NUI-Widget q:after {
+	content: '';
+	content: none;
+}
+
+
+
+.NUI-Noselect
+{
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+
+.NUI-Standart
+{
+	color:  #454545;
+	outline: 1px solid #c5c5c5;
+	background-color: #F0F0F0;
+}
+
+.NUI-Hover:hover
+{
+	color: #2b2b2b;
+	outline: 1px solid #cccccc;
+	background-color: #F8F8F8;
+}
+
+.NUI-Active:active
+{
+	color: #ffffff;
+	outline: 1px solid #003eff;
+	background-color: #005FFF;
+}
+
+.NUI-Select
+{
+	color: #ffffff;
+	outline: 1px solid #003eff;
+	background-color: #005FFF;
+}
+
+.NUI-Accent
+{
+	color:  #454545;
+	outline: 1px solid #c5c5c5;
+	background-color: #E3E9EC;
+}
+
+
+#NUI-root
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border: 1px dashed green;
+}
+
+#NUI-root > *
+{
+	
+}
+
+
+/*===================================================================*/
+
+#NUI-Form
+{
+	overflow: hidden;
+}
+
+#NUI-Form > #NUI-Int-1
+{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background-color: #DCDCDC;
+}
+
+#NUI-Form > #NUI-Int-2
+{
+	border-radius: 15px;
+}
+
+#NUI-Form > #NUI-Int-3
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #DCDCDC;
+}
+
+#NUI-Form > #NUI-Int-4
+{
+	border-radius: 15px;
+}
+
+
+/*===================================================================*/
+
+#NUI-Button
+{
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+}
+
+#NUI-Button #NUI-Int-1
+{
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+/*===================================================================*/
+
+#NUI-Radio
+{
+	cursor: pointer;
+	text-align: left;
+	overflow: hidden;
+}
+
+#NUI-Radio #NUI-Int-1
+{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#NUI-Radio #NUI-Int-2
+{
+	float: left;
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+
+
+
+/*===================================================================*/
+
+
+#NUI-Check
+{
+	cursor: pointer;
+	text-align: left;
+	overflow: hidden;
+}
+
+#NUI-Check #NUI-Int-1
+{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+#NUI-Check #NUI-Int-2
+{
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+/*===================================================================*/
+
+#NUI-Line
+{
+	cursor: default;
+	text-align: left;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+#NUI-Line #NUI-Int-1
+{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+#NUI-Line #NUI-Int-2
+{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-shadow: inset 0 0 3px 1px #c5c5c5;
+}
+
+
+
+/*===================================================================*/
+
+
+
+#NUI-Area
+{
+	cursor: default;
+	text-align: left;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+#NUI-Area #NUI-Int-1
+{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+#NUI-Area #NUI-Int-2
+{
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	resize: none;
+	box-shadow: inset 0 0 3px 1px #c5c5c5;
+}
+
+
+/*===================================================================*/
+
+#NUI-Size
+{
+	
+}
+
+
+
+/*===================================================================*/
+
+
+#NUI-Text
+{
+	
+}
+
+#NUI-Text #NUI-Int-1
+{
+	overflow: hidden;
+	position: absolute;
+}
+
+
